@@ -4,9 +4,9 @@
 Este aplicativo Android simula o **cadastro inicial de clientes** da loja virtual “Tem de Tudo”, com um fluxo intuitivo entre três telas: boas-vindas, formulário e confirmação. O objetivo é criar uma experiência fluida e realista de registro, ideal para uso em eventos e pontos de venda físicos.
 
 ### ✅ Principais Funcionalidades:
-- Tela de boas-vindas (MainActivity) com imagem da loja e botão para iniciar;
-- Tela de cadastro  (CadastroActivity) com **TextInputLayout** para nome do cliente;
-- Tela de confirmação personalizada  (ConfirmacaoActivity), com saudação e imagem de sucesso.
+- **Tela 1:** Boas-vindas (MainActivity) com imagem da loja e botão para iniciar;
+- **Tela 2:** Cadastro  (CadastroActivity) com **TextInputLayout** para nome do cliente;
+- **Tela 3:** Confirmação personalizada  (ConfirmacaoActivity), com saudação e imagem de sucesso.
 
 ---
 
