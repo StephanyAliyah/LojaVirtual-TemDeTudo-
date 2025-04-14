@@ -34,6 +34,9 @@ O projeto foi elaborado para aplicar conceitos essenciais do Android, como **nav
 2. Transferir o arquivo para um dispositivo Android;
 3. Instalar e abrir o aplicativo;
 4. Preencher o nome e seguir o fluxo até a confirmação do cadastro.
+   
+## 📸 Imagens do Projeto  
+Todas as imagens utilizadas estão disponíveis na pasta `/images`.
 
 ---
 
