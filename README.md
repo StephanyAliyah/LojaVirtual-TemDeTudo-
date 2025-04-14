@@ -1,43 +1,54 @@
-# App de Cadastro de Clientes - Tem de Tudo
+# 🛍️ App de Cadastro de Clientes - Tem de Tudo
 
-## Descrição do Projeto:
-Aplicativo Android para registro inicial de clientes da loja virtual “Tem de Tudo”, com navegação entre três telas (Activities) e envio de dados entre elas.
+## 📌 Descrição do Projeto
+Este aplicativo Android simula o **cadastro inicial de clientes** da loja virtual “Tem de Tudo”, com um fluxo intuitivo entre três telas: boas-vindas, formulário e confirmação. O objetivo é criar uma experiência fluida e realista de registro, ideal para uso em eventos e pontos de venda físicos.
 
-### **Principais Funcionalidades:**
-- Boas-vindas com imagem e botão;
-- Cadastro com nome e envio;
-- Confirmação personalizada com nome.
+### ✅ Principais Funcionalidades:
+- Tela de boas-vindas com imagem da loja e botão para iniciar;
+- Tela de cadastro com **TextInputLayout** para nome do cliente;
+- Tela de confirmação personalizada, com saudação e imagem de sucesso.
 
-## Informações do Desenvolvedor
+---
+
+## 👩‍💻 Informações da Desenvolvedora
 **Nome:** Stephany Aliyah Guimarães Eurípedes de Paula  
-**Curso:** Ciência da Computação - 3° Semestre
+**Curso:** Ciência da Computação - 3° Semestre  
 
-## Processo de Desenvolvimento
-O projeto foi desenvolvido com o objetivo de proporcionar uma experiência prática de navegação entre múltiplas telas (Activities), utilizando TextInputLayout para capturar de forma clara e estilizada o nome do cliente. A transição de dados entre as telas foi feita por meio de Intents, possibilitando que as informações preenchidas fossem exibidas corretamente na tela de confirmação. Esses recursos permitiram simular um processo real de cadastro, reforçando o aprendizado sobre a estrutura de um aplicativo Android com múltiplas etapas e componentes visuais modernos.
+---
 
+## 🛠️ Processo de Desenvolvimento
+O projeto foi elaborado para aplicar conceitos essenciais do Android, como **navegação entre Activities** e **envio de dados com Intents**. Utilizando o `TextInputLayout`, o app proporciona uma entrada de texto mais moderna e estilizada para o nome do cliente. Na terceira tela, o nome digitado é exibido dinamicamente junto a uma imagem que representa o sucesso do cadastro.
 
-### **Desafios Superados:**
-- Captura e envio de texto entre telas;
-- Controle de navegação entre Activities.
+### 🚧 Desafios Superados:
+- Implementação de **três Activities conectadas** por `Intent`;
+- Exibição de **mensagem personalizada com dados recebidos**.
 
-### **Decisões Estratégicas:**
-- Layouts separados para cada Activity;
-- Feedback visual com imagem de “Cadastro Completo”.
+### 💡 Decisões Estratégicas:
+- Separação clara das telas para facilitar a compreensão do fluxo;
+- Uso de imagens em todas as telas para melhorar a experiência do usuário.
 
-## Como Executar o Aplicativo
-1. **Baixar o APK**: [Download do APK](./app-debug.apk)  Ou ir na pasta src.
-2. Transferir o arquivo para um dispositivo Android.
-3. Instalar e abrir o aplicativo.
-4. Inserir os dados solicitados (altura e peso) e obter o resultado do IMC.
+---
 
-## Estrutura do Repositório
+## ▶️ Como Executar o Aplicativo
+1. **Baixar o APK**: [Download do APK] ou acessar a pasta `src/TemDeTudo.apk`;
+2. Transferir o arquivo para um dispositivo Android;
+3. Instalar e abrir o aplicativo;
+4. Preencher o nome e seguir o fluxo até a confirmação do cadastro.
+
+---
+
+## 📁 Estrutura do Repositório
 ```
-TemDeTudo/
-├── app-debug.apk    # Arquivo compilado do aplicativo
-├── projeto.zip      # Código-fonte do projeto(pasta src/ListaDeCompras.zip)
-├── README.md        # Documentação do projeto
+src/TemDeTudo.apk/zip
+├── app-debug.apk       # Arquivo compilado do aplicativo
+├── projeto.zip         # Código-fonte completo do projeto
+├── README.md           # Documentação do projeto
 ```
 
-## Tecnologias Utilizadas
-- **Java** para a lógica de programação (linguagem utilizada);
-- **Android Studio** como ambiente de desenvolvimento;
+---
+
+## 🧰 Tecnologias Utilizadas
+- **Java** (linguagem de programação)
+- **Android Studio** (ambiente de desenvolvimento)
+- **Componentes usados**: TextInputLayout, Intent, ImageView, TextView, Button
+
